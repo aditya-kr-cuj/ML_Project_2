@@ -17,9 +17,19 @@ A simple **Linear Regression** tool with a **Tkinter** GUI for visualization and
 - **Scikit-learn**
 - **Tkinter**
 
-## How to Use
+## Install Dependencies
+pip install -r requirements.txt
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/Linear-Regression-GUI.git
-cd Linear-Regression-GUI
+## Run the Script
+python ML_Regression_Model.py
+
+## How It Works
+- Trains a Linear Regression model on a small dataset.
+- GUI allows:
+  Visualization of the regression line on the dataset.
+  Prediction of target values based on user inputs.
+
+## Example Workflow
+- Click "Show Regression Plot" to view the dataset and the regression line.
+- Enter a value in the input field and click "Predict" to get the predicted target value.
+
